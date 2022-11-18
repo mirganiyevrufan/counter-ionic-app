@@ -1,0 +1,48 @@
+html {
+  font-size: 62.5%;
+}
+.content-tab2 {
+  --background: url(https://cdna.artstation.com/p/assets/images/images/040/601/780/large/chace-ali-5.jpg?1629342497)
+    no-repeat center/cover fixed;
+}
+.ion-padding p {
+  font-size: 2rem;
+}
+.card-header img {
+  margin-top: 1rem;
+}
+.play-me span {
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.play-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 1.5rem 3rem;
+  background-color: rgb(115, 219, 179);
+  transition: all 0.7s;
+}
+.play-me:hover {
+  opacity: 0.8;
+  background-color: blueviolet;
+}
+
+.tab2 {
+  --color: rgb(230, 28, 28);
+  transition: all 0.2s;
+}
+.tab2:hover {
+  transform: translateX(1rem);
+}
+@media only screen and (max-width: 600px) {
+  .ion-padding p {
+    font-size: 1.6rem;
+  }
+  .play-me span {
+    font-size: medium;
+  }
+}
